@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: 'Roboto Slab', serif;
+  font: normal 100%/1.3 "Roboto Slab", serif;
 }
 
 *, *::before, *::after {
@@ -32,12 +32,11 @@ figcaption {
   border-radius: .5em;
   position: absolute;
   bottom: .5em;
-  left: .5em;
-  background-color: rgba(0, 0, 0, 0.53);
+  left: .5rem;
+  background-color: rgba(0, 0, 0, .53);
   color: #fff;
-  padding: 1em;
+  padding: 1rem;
 }
-
 
 .img-flex {
   display: block;
